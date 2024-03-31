@@ -1,0 +1,100 @@
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.titleContainer {
+    margin-bottom: 20px;
+}
+
+.ListView {
+    width: 80%;
+    min-width: 500px;
+    height: 90%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: scroll;
+    background-color: rgb(230, 254, 255);
+}
+
+.individualTodo{
+    width: 80%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    margin: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+    margin: 10px;
+}
+
+.todoText{
+    flex-grow: 0.78;
+    font-size: 15px;
+}
+
+.deleteButton{
+    align-items: center;
+    margin: 10px;
+    background-color: rgb(255, 131, 131);
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    box-shadow: 1px 1px 1px rgb(220, 220, 220);
+}
+
+.InputBox {
+    align-items: center;
+    margin: 10px;
+    width: 50%;
+    min-width: 250px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    padding: 7px;
+    box-shadow: 7px 7px 7px rgb(220, 220, 220);
+}
+
+.AddButton {
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(107, 255, 139);
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    padding: 7px;
+    box-shadow: 1px 1px 1px rgb(220, 220, 220);
+}
+
+.DeleteAllButton {
+    align-items: center;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(255, 107, 107);
+    font-size: 14px;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    padding: 7px;
+    box-shadow: 1px 1px 1px rgb(220, 220, 220);
+}
+
